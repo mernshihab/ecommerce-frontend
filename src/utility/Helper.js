@@ -1,5 +1,5 @@
 class Helper{
-    static API_BASE = "http://localhost:5000/api";
+    static API_BASE = "https://ecommerce-backend-ey0u.onrender.com/api";
 }
 
 export default Helper;
