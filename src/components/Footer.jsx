@@ -5,25 +5,25 @@ import { FaLinkedin } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 p-5">
-      <div className="px-10 mx-auto flex justify-between items-start pt-3">
-        <div>
+      <div className="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row justify-between items-start pt-3">
+        <div className="mb-6 lg:mb-0">
           <img className="h-10" src="logo.svg" alt="logo" />
           <div className="flex gap-3 mt-8 ml-1">
-            <a href="https://www.facebook.com/webshihab" target="_blank">
-              <FaFacebook className="text-3xl  text-white " />
+            <a href="https://www.facebook.com/webshihab" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="text-3xl text-white" />
             </a>
-            <a href="https://www.instagram.com/webshihab" target="_blank">
-              <FaInstagram className="text-3xl  text-white " />
+            <a href="https://www.instagram.com/webshihab" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="text-3xl text-white" />
             </a>
-            <a href="https://www.linkedin.com/in/mernshihab" target="_blank">
-              <FaLinkedin className="text-3xl  text-white " />
+            <a href="https://www.linkedin.com/in/mernshihab" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="text-3xl text-white" />
             </a>
-            <a href="https://github.com/mernshihab" target="_blank">
-              <FaGithub className="text-3xl  text-white " />
+            <a href="https://github.com/mernshihab" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="text-3xl text-white" />
             </a>
           </div>
         </div>
-        <div className="text-white space-y-2 text-lg">
+        <div className="text-white space-y-2 text-lg mb-6 lg:mb-0">
           <p>About Us</p>
           <p>Terms of Service</p>
           <p>Contact</p>
