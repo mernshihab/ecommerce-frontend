@@ -12,30 +12,30 @@ The Ecommerce Frontend is a web application designed to provide a user-friendly 
 ## Prerequisites
 Ensure you have the following installed on your machine:
 
- Node.js (version 14 or higher)
- npm (version 6 or higher)
+### Node.js (version 14 or higher)
+### npm (version 6 or higher)
 
 ## Installation
 ### 1. Clone the Repository
 
-   git clone https://github.com/yourusername/ecommerce-frontend.git
-   cd ecommerce-frontend
+   `git clone https://github.com/yourusername/ecommerce-frontend.git`
+   `cd ecommerce-frontend`
 
 ## 2. Install Dependencies:
-   npm install
+   `npm install`
 
 ## 3. Start the Development Server:
-   npm run dev
+   `npm run dev`
 
    The application will be accessible at http://localhost:3000.
 
 
 # Building for Production
   To create an optimized production build:
-### npm run build
+  `npm run build`
 
 # Project Structure
-ecommerce-frontend/
+` ecommerce-frontend/
 ├── public/
 │   ├── logo.svg
 │   ├── vite.svg
@@ -73,7 +73,8 @@ ecommerce-frontend/
 ├── postcss.config.js
 ├── README.md
 ├── tailwind.config.js
-└── vite.config.js
+└── vite.config.js 
+`
 
 
 # Technologies Used
