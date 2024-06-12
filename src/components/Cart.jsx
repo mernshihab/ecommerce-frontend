@@ -20,18 +20,25 @@ const Cart = () => {
             key={item._id}
             className="flex justify-between items-center mb-4"
           >
-            <div>
-              <h3 className="text-lg font-bold">{item.product.title}</h3>
-              <p className="text-gray-600">
-                ${item.product.price} x {item.quantity}
-              </p>
-              <button
-                title="Click to remove"
-                onClick={() => removeFromCart(item._id)}
-                className="py-1 text-red-500 font-semibold text-lg"
-              >
-                Remove
-              </button>
+            <div className="flex">
+              <img
+                className="w-24 h-24 rounded-md mr-2"
+                src={item.product.image}
+                alt="Product Image"
+              />
+              <div className="ml-2">
+                <h3 className="text-lg font-bold">{item.product.title}</h3>
+                <p className="text-gray-600">
+                  ${item.product.price} x {item.quantity}
+                </p>
+                <button
+                  title="Click to remove"
+                  onClick={() => removeFromCart(item._id)}
+                  className="py-1 text-red-500 font-semibold text-lg"
+                >
+                  Remove
+                </button>
+              </div>
             </div>
             <div className="flex items-center">
               <button

@@ -19,7 +19,7 @@ const CartModal = ({ isOpen, onClose }) => {
         isOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >
-      <div className="bg-stone-800 p-4 w-full sm:w-96 h-full shadow-lg overflow-y-auto">
+      <div className="bg-stone-800 p-4 w-full sm:w-[400px] h-full shadow-lg overflow-y-auto">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-3xl font-semibold text-white">Shopping Cart</h2>
           <button onClick={onClose}>
@@ -36,19 +36,26 @@ const CartModal = ({ isOpen, onClose }) => {
               key={item._id}
               className="flex justify-between items-center mb-4"
             >
-              <div>
-                <h3 className="font-semibold text-white text-lg">
-                  {item.product.title}
-                </h3>
-                <p className="text-white">
-                  ${item.product.price} x {item.quantity}
-                </p>
-                <button
-                  onClick={() => removeFromCart(item._id)}
-                  className="text-red-500 font-semibold text-lg"
-                >
-                  Remove
-                </button>
+              <div className="flex items-center">
+                <img
+                  className="w-16 h-16 rounded-md "
+                  src={item.product.image}
+                  alt="Product Image"
+                />
+                <div className="ml-2">
+                  <h3 className="font-semibold text-white text-lg">
+                    {item.product.title}
+                  </h3>
+                  <p className="text-white">
+                    ${item.product.price} x {item.quantity}
+                  </p>
+                  <button
+                    onClick={() => removeFromCart(item._id)}
+                    className="text-red-500 font-semibold text-lg"
+                  >
+                    Remove
+                  </button>
+                </div>
               </div>
               <div className="flex items-center">
                 <button
