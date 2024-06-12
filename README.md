@@ -35,35 +35,35 @@ Ensure you have the following installed on your machine:
   `npm run build`
 
 # Project Structure
-` ecommerce-frontend/
+ecommerce-frontend/
 ├── public/
-│   ├── logo.svg
-│   ├── vite.svg
+│ ├── logo.svg
+│ └── vite.svg
 ├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── components/
-│   │   ├── Cart.jsx
-│   │   ├── CartIcon.jsx
-│   │   ├── CartModal.jsx
-│   │   ├── CheckoutForm.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── OrderIcon.jsx
-│   │   ├── OrderModal.jsx
-│   │   ├── ProductCard.jsx
-│   │   └── ProductList.jsx
-│   ├── context/
-│   │   └── CartContext.jsx
-│   ├── pages/
-│   │   ├── CheckoutPage.jsx
-│   │   └── ProductListingPage.jsx
-│   ├── utility/
-│   │   └── Helper.js
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   ├── main.jsx
+│ ├── assets/
+│ │ └── react.svg
+│ ├── components/
+│ │ ├── Cart.jsx
+│ │ ├── CartIcon.jsx
+│ │ ├── CartModal.jsx
+│ │ ├── CheckoutForm.jsx
+│ │ ├── Footer.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── OrderIcon.jsx
+│ │ ├── OrderModal.jsx
+│ │ ├── ProductCard.jsx
+│ │ └── ProductList.jsx
+│ ├── context/
+│ │ └── CartContext.jsx
+│ ├── pages/
+│ │ ├── CheckoutPage.jsx
+│ │ └── ProductListingPage.jsx
+│ ├── utility/
+│ │ └── Helper.js
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
 ├── .eslintrc.cjs
 ├── .gitattributes
 ├── .gitignore
@@ -73,8 +73,8 @@ Ensure you have the following installed on your machine:
 ├── postcss.config.js
 ├── README.md
 ├── tailwind.config.js
-└── vite.config.js 
-`
+└── vite.config.js
+
 
 
 # Technologies Used
